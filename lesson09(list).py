@@ -14,11 +14,11 @@
 # fruits.append("watermelon") #додає один елемент
 # fruits.append("grape")
 # print(fruits)
-# #fruits.extend(["watermelon", "grape"])
+# #fruits.extend(["watermelon", "grape"]) #додає список всередині списку
 
 
 # animals = ["dog", "cat", "bird", "fish"]
-# animals.remove("cat")
+# animals.remove("cat") #видалити елемент
 # animals.append("horse")
 # print(animals)
 
@@ -43,11 +43,14 @@
 
 
 friends = ["Alex", "Denys", "Mark", "John"]
-name = input("Enter your name: ").title()
+name = input("Enter your name: ").title() #робить першу букву великою
 if name in friends:
     print("You are my friend")
 else:
     print("I don't know you")
+
+    #capitalize - "denys ivanov".capitalize() - Denys ivanov
+    #"denys ivanov".title() - Denys Ivanov
 
 
 

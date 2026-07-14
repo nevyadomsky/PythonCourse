@@ -11,4 +11,4 @@ print(f"""Hello! My name is {name}.
 I am {age} years old.
 I live in {city}, {country}.
 My hobby is {hobby}.""")
-#потрійні лапки дозволяють дозволяють писати з нового рядка
+#потрійні лапки дозволяють писати з нового рядка

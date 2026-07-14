@@ -43,13 +43,13 @@
 # print(f"There are {count} numbers")
 
 
-count = 0
-
-for number in range(1, 21):
-    if number % 2 == 0:
-        count = count + 1
-        print(number)
-print(f"There are {count} even numbers between 1 and 20.")
+# count = 0
+#
+# for number in range(1, 21):
+#     if number % 2 == 0:
+#         count = count + 1
+#         print(number)
+# print(f"There are {count} even numbers between 1 and 20.")
 
 
 # total = 100
@@ -63,7 +63,7 @@ print(f"There are {count} even numbers between 1 and 20.")
 #
 # for number in range(1, 4):
 #     total = total + number
-# 
+#
 # print(total)
 
 

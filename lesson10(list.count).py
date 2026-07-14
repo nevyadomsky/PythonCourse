@@ -1,5 +1,5 @@
 # shopping = ["milk", "bread", "apple", "milk", "banana", "milk"]
-# milk_count = (shopping.count("milk"))
+# milk_count = (shopping.count("milk")) #метод .count(), який рахує, скільки разів певне значення зустрічається у списку
 # print(f"Milk appears {milk_count} times.")
 
 
