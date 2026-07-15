@@ -110,4 +110,4 @@ def biggest(numbers):
         if number > numbers:
             num = number + 1
     return num
-numbers = []
+numbers = [15, 7 ]
