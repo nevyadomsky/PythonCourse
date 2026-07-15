@@ -79,6 +79,7 @@
 def find_big_number(numbers):
     for number in numbers:
         if number > 10:
-    return number
+            return number
+    return None
 numbers = [3, 7, 12, 5, 20]
 print(find_big_number(numbers))
