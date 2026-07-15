@@ -47,8 +47,9 @@ users = [
      }
 ]
 def get_adults(users):
+    
     for user in users:
         if user["age"] >= 18:
     return user
-        
+
 print(users)
