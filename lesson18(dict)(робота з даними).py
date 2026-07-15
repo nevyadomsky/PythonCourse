@@ -8,10 +8,11 @@ user = create_user("Anna", 20)
 print(user)
 
 # Множина (set):
-# colors = {"red", "blue", "green"}
+#   colors = {"red", "blue", "green"}
 # Словник (dict):
-# user = {
-#     "name": "Anna",
-#     "age": 20
-# }
-# Пари: ключ → значення
+#    user = {
+#        "name": "Anna",
+#        "age": 20
+#    }        # Пари: ключ → значення
+
+
