@@ -61,4 +61,5 @@ def find_user(users, name):
         if user["name"] == name:
             return user
         else: return None
-print (find_user(users, )
+print (find_user(users, "Maria"))
+print (find_user(users, "Bob"))
