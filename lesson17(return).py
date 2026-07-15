@@ -111,6 +111,7 @@ def biggest(numbers):
         if number > num:
             num = number
     return num
-numbers = [15, 7, 22, 9, 18]
+#numbers = [15, 7, 22, 9, 18]
+numbers = [-3, -7, -5]
 result = biggest(numbers)
 print(result)
