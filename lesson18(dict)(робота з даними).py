@@ -7,5 +7,11 @@ def create_user(name, age):
 user = create_user("Anna", 20)
 print(user)
 
-#Множина (set):
-colors = {"red", "blue", "green"}
+# Множина (set):
+# colors = {"red", "blue", "green"}
+# Словник (dict):
+# user = {
+#     "name": "Anna",
+#     "age": 20
+# }
+# Пари: ключ → значення
