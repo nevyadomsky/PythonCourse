@@ -102,5 +102,5 @@
 def check_password(passwords, password):
     for password in passwords:
         if password == passwords:
-            print("Access granted")
-    return "Access "
+            return "Access granted"
+    return "Access denied"
