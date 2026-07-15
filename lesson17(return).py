@@ -93,7 +93,5 @@
 
 
 def sum_even(numbers):
-    
-
-
-
+    count = 0
+    for number in numbers:
