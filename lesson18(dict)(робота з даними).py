@@ -50,3 +50,4 @@ def get_adult(users):
     for user in users:
         if user["age"] >= 18:
             return user
+print(users)
