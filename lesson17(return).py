@@ -105,7 +105,8 @@
 
 
 def biggest(numbers):
-    num = 0
+    #num = 0 #якщо у списку від'ємні числа, результат буде 0, а 0-ля в спуску немає
+    
     for number in numbers:
         if number > num:
             num = number
