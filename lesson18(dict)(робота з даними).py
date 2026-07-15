@@ -99,13 +99,13 @@
 # print(find_word(words, "cat"))
 
 
-def check_password(passwords, password):
-    for password in passwords:
-        if password == passwords:
-            return "Access granted"
-    return "Access denied"
 passwords = [
     "abc123",
     "hello",
     "python2026"
 ]
+def check_password(passwords, password):
+    for password in passwords:
+        if password == passwords:
+            return "Access granted"
+    return "Access denied"
