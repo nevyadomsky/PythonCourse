@@ -85,15 +85,18 @@
 # print(find_big_number([1, 2, 3]))
 
 
-def find_word(words, target):
-    for word in words:
-        if word == target:
-            return word
-    return None
+# def find_word(words, target):
+#     for word in words:
+#         if word == target:
+#             return word
+#     return None
+#
+# words = ["cat", "dog", "bird"]
+# result = find_word
+# print(result(words, "fish"))
+# print(result(words, "cat"))
+# print(find_word(words, "fish"))
+# print(find_word(words, "cat"))
 
-words = ["cat", "dog", "bird"]
-result = find_word
-print(result(words, "fish"))
-print(result(words, "cat"))
-print(find_word(words, "fish"))
-print(find_word(words, "cat"))
+
+def check_password(passwords, password):
