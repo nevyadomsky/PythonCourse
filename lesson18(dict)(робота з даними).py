@@ -1,7 +1,7 @@
 def create_user(name, age):
     user = {
-        "name",
-        "age"
+        "name": name,
+        "age": age
     }
     return user
 user = create_user("Anna", 20)
