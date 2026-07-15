@@ -56,22 +56,24 @@
 # print(get_adults(users))
 
 
-users = [
-    {"name": "Alex",
-     "age": 25
-     },
-    {"name": "Maria",
-     "age": 30
-     },
-    {"name": "John",
-     "age": 17
-     }
-]
-def find_user(users, name):
-    for user in users:
-        if user["name"] == name:
-            return user            #return означає:"Зупини функцію і віддай результат назад"
-    return None
-print (find_user(users, "Maria"))
-print (find_user(users, "Bob"))
- 
+# users = [
+#     {"name": "Alex",
+#      "age": 25
+#      },
+#     {"name": "Maria",
+#      "age": 30
+#      },
+#     {"name": "John",
+#      "age": 17
+#      }
+# ]
+# def find_user(users, name):
+#     for user in users:
+#         if user["name"] == name:
+#             return user            #return означає:"Зупини функцію і віддай результат назад"
+#     return None
+# print (find_user(users, "Maria"))
+# print (find_user(users, "Bob"))
+
+
+def find_big_number(numbers):
