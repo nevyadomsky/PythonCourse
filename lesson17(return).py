@@ -91,6 +91,5 @@ grades = [85, 42, 90, 55, 30, 100]
 result = count_passed(grades)
 print(f"There are {result} passing grades")
 
-gegegegeg
 
 
