@@ -46,4 +46,4 @@ users = [
      "age": 17
      }
 ]
-def
+def get_adult
