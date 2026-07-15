@@ -35,17 +35,17 @@
 # print(user)
 
 
-# users = [
-#     {"name": "Alex",
-#      "age": 25
-#      },
-#     {"name": "Maria",
-#      "age": 30
-#      },
-#     {"name": "John",
-#      "age": 17
-#      }
-# ]
+users = [
+    {"name": "Alex",
+     "age": 25
+     },
+    {"name": "Maria",
+     "age": 30
+     },
+    {"name": "John",
+     "age": 17
+     }
+]
 # def get_adults(users):
 #     adults = []
 #     for user in users:
