@@ -53,4 +53,4 @@ def get_adults(users):
             adults.append(user)
     return adults
 
-print(users)
+print(get_adults(users))
