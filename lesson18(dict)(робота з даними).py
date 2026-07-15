@@ -135,5 +135,5 @@ def find_expensive_product(products):
             expensive_product = product
         elif product["price"] > expensive_product["price"]:
             expensive_product = product
-    return product
+    return expensive_product
 print(find_expensive_product(products))
