@@ -77,4 +77,6 @@
 
 
 def find_big_number(numbers):
-    
+    for number in numbers:
+numbers = [3, 7, 12, 5, 20]
+print(find_big_number(numbers))
