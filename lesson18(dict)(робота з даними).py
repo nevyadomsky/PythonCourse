@@ -50,7 +50,7 @@ def get_adults(users):
     adults = []
     for user in users:
         if user["age"] >= 18:
-            
+            adults.append(user)
     return user
 
 print(users)
