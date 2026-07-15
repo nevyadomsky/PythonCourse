@@ -1,7 +1,7 @@
 # def double(number):
 #     print(number*2)
 # result = double(10)
-from unittest import result
+#from unittest import result
 
 
 # def double(number):
@@ -48,7 +48,7 @@ from unittest import result
 
 
 # def is_even(number):
-#     if number % 2 == 0: #так провіряється, чи число парне
+#     if number % 2 == 0: #так перевіряємо, чи число парне
 #         return True
 #     else:
 #         return False
