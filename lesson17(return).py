@@ -101,3 +101,4 @@ def sum_even(numbers):
     return count
 numbers = [4, 7, 10, 3, 8]
 print(sum_even(numbers))
+print(sum_even(numbers))
