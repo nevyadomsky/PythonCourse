@@ -70,7 +70,8 @@ users = [
 def find_user(users, name):
     for user in users:
         if user["name"] == name:
-            return user
+            return user            #return означає:"Зупини функцію і віддай результат назад"
     return None
 print (find_user(users, "Maria"))
 print (find_user(users, "Bob"))
+ 
