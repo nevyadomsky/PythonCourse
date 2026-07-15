@@ -1,6 +1,7 @@
 def create_user(name, age):
     user = {
-        "name": Anna
+        "name": ""Anna"
+        
     }
 user = create_user("Anna", 20)
 print(user)
