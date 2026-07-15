@@ -87,7 +87,7 @@ def count_passed(grades): #тут grades як параметр функції
          if grade >= 60:
              count = count + 1
      return count
-grades = [85, 42, 90, 55, 30, 100] #а тут як змінна поза функцією
+grades = [85, 42, 90, 55, 30, 100] #а тут grades, як змінна поза функцією, тому python попереджає
 result = count_passed(grades)
 print(f"There are {result} passing grades")
 
