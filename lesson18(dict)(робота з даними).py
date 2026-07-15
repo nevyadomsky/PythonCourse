@@ -1,1 +1,2 @@
-def create_user()
+def create_user(name, age):
+    
