@@ -31,3 +31,5 @@ def create_user(name, age):
         "name": name,
         "age": age
     }
+user = create_user("Anna", 20)
+print(user)
