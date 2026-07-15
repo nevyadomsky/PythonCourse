@@ -101,4 +101,5 @@
 
 def check_password(passwords, password):
     for password in passwords:
-        if password ==
+        if password == passwords:
+            
