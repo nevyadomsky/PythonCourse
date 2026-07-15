@@ -100,5 +100,5 @@ def sum_even(numbers):
     return total
 numbers = [4, 7, 10, 3, 8]
 result = sum_even(numbers)
-print(f"The sum of {numbers} is {result}")
+print(f"The sum is {result}")
 #count - кількість, підрахунок; total - всього, загально, підсумок
