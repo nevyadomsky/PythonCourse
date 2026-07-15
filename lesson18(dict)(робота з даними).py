@@ -104,3 +104,8 @@ def check_password(passwords, password):
         if password == passwords:
             return "Access granted"
     return "Access denied"
+passwords = [
+    "abc123",
+    "hello",
+    "python2026"
+]
