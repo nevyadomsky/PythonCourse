@@ -105,8 +105,8 @@ passwords = [
     "python2026"
 ]
 def check_password(passwords, password):
-    for password in passwords:
-        if password == passwords:
+    for saved_password in passwords:
+        if saved_password == passwords:
             return "Access granted"
     return "Access denied"
 print(check_password(passwords, "abc123"))
