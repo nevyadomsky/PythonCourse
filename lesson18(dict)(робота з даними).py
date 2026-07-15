@@ -129,3 +129,5 @@ products = [
     }
 ]
 def find_expensive_product(products):
+    for product in products:
+        if expensive_product 
