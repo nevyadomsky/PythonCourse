@@ -81,5 +81,5 @@ def find_big_number(numbers):
         if number > 10:
             return number
     return None
-numbers = [3, 7, 12, 5, 20]
+# numbers = [3, 7, 12, 5, 20]
 print(find_big_number(numbers))
