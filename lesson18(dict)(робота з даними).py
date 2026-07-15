@@ -133,6 +133,6 @@ def find_expensive_product(products):
     for product in products:
         if expensive_product is None:
             expensive_product = product
-        elif
+        elif product[price]
     return product
 print(find_expensive_product(products))
