@@ -88,4 +88,4 @@
 def find_word(words, target):
 
 words = ["cat", "dog", "bird"]
-pr
+result = 
