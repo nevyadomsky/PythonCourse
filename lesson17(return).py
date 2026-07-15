@@ -97,7 +97,7 @@ def sum_even(numbers):
     for number in numbers:
         if number % 2 == 0:
             count = count +1
-    return count
+    return sum(count)
 numbers = [4, 7, 10, 3, 8]
 result = sum_even(numbers)
 print(result)
