@@ -86,6 +86,10 @@
 
 
 def find_word(words, target):
+    for word in words:
+        if word == target:
+            return word
+    return None
 
 words = ["cat", "dog", "bird"]
 result = find_word
