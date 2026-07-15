@@ -11,4 +11,4 @@ is_tired = answer == "yes"
 if not is_tired:
     print("You can study Python")
 else:
-    print("You should rest")
+    print("You should rest") #
