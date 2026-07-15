@@ -107,8 +107,8 @@
 def biggest(numbers):
     num = 0
     for number in numbers:
-        if number > number - 1:
-            num = number + 1
+        if number > numbers[]:
+            num = number 
     return num
 numbers = [15, 7, 22, 9, 18]
 result = biggest(numbers)
