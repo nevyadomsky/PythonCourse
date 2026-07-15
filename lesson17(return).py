@@ -101,4 +101,4 @@ def sum_even(numbers):
 numbers = [4, 7, 10, 3, 8]
 result = sum_even(numbers)
 print(result)
-#count - , total - 
+#count - кількість, total -
