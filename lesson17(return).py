@@ -99,4 +99,5 @@ def sum_even(numbers):
             result = sum(numbers)
             count = count +1
     return count
-numbers = 8
+numbers = [4, 7, 10, 3, 8]
+print(sum_even(numbers))
