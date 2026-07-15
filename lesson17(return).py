@@ -81,7 +81,7 @@
 # print(grade_result(40))
 
 
-def count_passed(grades):
+def count_passed(grades): #тут grades 
      count = 0
      for grade in grades: #grade — це сама оцінка, а count — кількість знайдених оцінок.
          if grade >= 60:
