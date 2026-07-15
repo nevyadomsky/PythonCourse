@@ -51,6 +51,6 @@ def get_adults(users):
     for user in users:
         if user["age"] >= 18:
             adults.append(user)
-    return user
+    return adults
 
 print(users)
