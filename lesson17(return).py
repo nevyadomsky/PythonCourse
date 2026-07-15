@@ -111,4 +111,5 @@ def biggest(numbers):
             num = number + 1
     return num
 numbers = [15, 7, 22, 9, 18]
-
+result = biggest(numbers)
+print(result)
