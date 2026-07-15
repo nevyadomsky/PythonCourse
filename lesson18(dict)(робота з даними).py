@@ -41,7 +41,7 @@ users = [
      },
     {"name": "Maria",
      "age": 30
-     }
+     },
     {"name": "John",
      "age": 17
      }
@@ -49,4 +49,4 @@ users = [
 def get_adult(users):
     for user in users:
         if user["age"] >= 18:
-            
+            return user
