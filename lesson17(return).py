@@ -95,3 +95,5 @@
 def sum_even(numbers):
     count = 0
     for number in numbers:
+        if number % 2 == 0:
+            
