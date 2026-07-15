@@ -56,5 +56,6 @@
 # print(get_adults(users))
 
 
-def find_user(user, name):
+def find_user(users, name):
     for user in users:
+        
