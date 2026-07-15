@@ -35,6 +35,27 @@
 # print(user)
 
 
+# users = [
+#     {"name": "Alex",
+#      "age": 25
+#      },
+#     {"name": "Maria",
+#      "age": 30
+#      },
+#     {"name": "John",
+#      "age": 17
+#      }
+# ]
+# def get_adults(users):
+#     adults = []
+#     for user in users:
+#         if user["age"] >= 18:
+#             adults.append(user)
+#     return adults
+#
+# print(get_adults(users))
+
+
 users = [
     {"name": "Alex",
      "age": 25
@@ -46,16 +67,6 @@ users = [
      "age": 17
      }
 ]
-# def get_adults(users):
-#     adults = []
-#     for user in users:
-#         if user["age"] >= 18:
-#             adults.append(user)
-#     return adults
-#
-# print(get_adults(users))
-
-
 def find_user(users, name):
     for user in users:
         if user["name"] == name:
