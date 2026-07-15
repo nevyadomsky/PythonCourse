@@ -131,7 +131,7 @@ products = [
 def find_expensive_product(products):
     expensive_product = None
     for product in products:
-        if product == max(products["price"]):
+        if product == max(product["price"]):
             expensive_product = product
     return "name"
 print(find_expensive_product(products))
