@@ -93,11 +93,11 @@
 
 
 def sum_even(numbers):
-    count = 0
+    total = 0
     for number in numbers:
         if number % 2 == 0:
-            count = count + number
-    return count
+            total = total + number
+    return total
 numbers = [4, 7, 10, 3, 8]
 result = sum_even(numbers)
 print(result)
