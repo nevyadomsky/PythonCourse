@@ -38,7 +38,8 @@
 users = [
     {"name": "Alex",
      "age": 25
-    },
+     },
     {"name": "Maria",
-     "age": 
+     "age": 30
+     }
 ]
