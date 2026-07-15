@@ -99,15 +99,32 @@
 # print(find_word(words, "cat"))
 
 
-passwords = [
-    "abc123",
-    "hello",
-    "python2026"
+# passwords = [
+#     "abc123",
+#     "hello",
+#     "python2026"
+# ]
+# def check_password(passwords, password):
+#     for saved_password in passwords:
+#         if saved_password == password:
+#             return "Access granted"
+#     return "Access denied"
+# print(check_password(passwords, "hello"))
+# print(check_password(passwords, "bye"))
+
+
+
+products = [
+    {
+        "name": "Mouse",
+        "price": 50
+    },
+    {
+        "name": "Keyboard",
+        "price": 100
+    },
+    {
+        "name": "Monitor",
+        "price": 300
+    }
 ]
-def check_password(passwords, password):
-    for saved_password in passwords:
-        if saved_password == password:
-            return "Access granted"
-    return "Access denied"
-print(check_password(passwords, "hello"))
-print(check_password(passwords, "bye"))
