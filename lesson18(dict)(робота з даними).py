@@ -95,3 +95,5 @@ words = ["cat", "dog", "bird"]
 result = find_word
 print(result(words, "fish"))
 print(result(words, "cat"))
+print(find_word(words, "fish"))
+print(find_word(words, "cat"))
