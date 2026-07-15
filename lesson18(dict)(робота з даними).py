@@ -106,7 +106,7 @@ passwords = [
 ]
 def check_password(passwords, password):
     for saved_password in passwords:
-        if saved_password == passwords:
+        if saved_password == password:
             return "Access granted"
     return "Access denied"
 print(check_password(passwords, "hello"))
