@@ -36,5 +36,5 @@
 
 
 users = [
-    {"name":}
+    {"name": "Alex"}
 ]
