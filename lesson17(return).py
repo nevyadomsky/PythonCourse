@@ -92,12 +92,12 @@
 # print(f"There are {result} passing grades")
 
 
-count = 0
 def sum_even(numbers):
+    count = 0
     for number in numbers:
         if number % 2 == 0:
             count = count +1
-    return number
+    return count
 numbers = [4, 7, 10, 3, 8]
 result = sum_even(numbers)
 print(result)
