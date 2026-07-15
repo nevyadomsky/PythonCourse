@@ -94,3 +94,4 @@ def find_word(words, target):
 words = ["cat", "dog", "bird"]
 result = find_word
 print(result(words, "fish"))
+print(result(words, "cat"))
