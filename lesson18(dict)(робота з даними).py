@@ -87,4 +87,4 @@
 
 def find_word(words, target):
 
-words
+words = ["cat", ""]
