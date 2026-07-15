@@ -109,4 +109,5 @@ def check_password(passwords, password):
         if password == passwords:
             return "Access granted"
     return "Access denied"
-print(check_password(passwords, "hello"))
+print(check_password(passwords, "abc123"))
+print(check_password(passwords, "hello"))))
