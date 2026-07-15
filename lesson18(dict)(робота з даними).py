@@ -57,4 +57,4 @@
 
 
 def find_user(user, name):
-    
+    for user in users:
