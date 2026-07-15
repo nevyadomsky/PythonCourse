@@ -110,3 +110,4 @@ def check_password(passwords, password):
             return "Access granted"
     return "Access denied"
 print(check_password(passwords, "hello"))
+print(check_password(passwords, "bye"))
