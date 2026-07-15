@@ -92,13 +92,15 @@
 # print(f"There are {result} passing grades")
 
 
-def sum_even(numbers):
-    total = 0
-    for number in numbers:
-        if number % 2 == 0:
-            total = total + number
-    return total
-numbers = [4, 7, 10, 3, 8]
-result = sum_even(numbers)
-print(f"The sum is {result}")
-#count - кількість, підрахунок; total - всього, загально, підсумок
+# def sum_even(numbers):
+#     total = 0
+#     for number in numbers:
+#         if number % 2 == 0:
+#             total = total + number
+#     return total
+# numbers = [4, 7, 10, 3, 8]
+# result = sum_even(numbers)
+# print(f"The sum is {result}")
+# #count - кількість, підрахунок; total - всього, загально, підсумок
+
+
