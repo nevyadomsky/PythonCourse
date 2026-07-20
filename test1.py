@@ -43,11 +43,11 @@ from operator import add
 # a = b = 4
 
 
-a, b = 3, 4
-c = "10"
-d = "20"
-e = 6.5
-k = 12.9
+# a, b = 3, 4
+# c = "10"
+# d = "20"
+# e = 6.5
+# k = 12.9
 
 # region add
 # print(b+a, type(b+a)) #ok
@@ -70,8 +70,38 @@ k = 12.9
 # print("_____________")
 # print(0.3+0.3+0.3) #!!!!!!!!!
 # endregion
+# region subtr
+# print(b-a, type(b-a)) #ok
+# print(a-b, type(a-b)) #ok
+# print("_____________")
+# print(a-c, type(a-c)) #mistake
+# print(c-a, type(c-a)) #mistake
+# print("_____________")
+# print(a-e, type(a-e)) #ok
+# print(e-a, type(e-a)) #ok
+# print("_____________")
+# print(c-d, type(c-d)) #mistake
+# print(d-c, type(d-c)) #mistake
+# print("_____________")
+# print(c-e, type(c-e)) #mistake
+# print(e-c, type(e-c)) #mistake
+# print("_____________")
+# print(k-e, type(k-e)) #ok
+# print(e-k, type(e-k)) #ok
+# print("_____________")
+# print(9**19-int(float(9**19))) #!!!!!!!!!
+# endregion
+
+
+# print(42/8, 42//8, 42%8)
+# print(-42/-8, -42//-8, -42%-8)
+# print(-42/8, -42//8, -42%8)
+# print(42/-8, 42//-8, 42%-8)
+
+# a//b=q remainder r
+# b*q+r=a
 
 
 
-
-
+a = int(input("Enter a number: "))
+print(-9**a)
