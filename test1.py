@@ -149,4 +149,47 @@ from operator import add
 
 # print(int(True))
 # print(int(False))
-erehehwegegewg
+
+
+
+# print(bool(10)) #любе значення не нуль - це тру. пустота це нуль
+# a = int(input())
+# if a:
+#     print("ok")
+
+
+# and
+# 0 0   0
+# 0 1   0
+# 1 0   0
+# 1 1   1
+# or
+# 0 0   0
+# 1 0   1
+# 0 1   1
+# 1 1   1
+
+
+# z = 10
+# a = b = (z==0)
+# print(a, b, z)
+
+
+# z = 1
+# b = 0
+# a = (b==(z==0))
+# print(a, b, z)
+
+
+# a, b = int(input()), int(input())
+# # if a==b!=0 and a<10 and b<10: #те саме, що і знизу
+# # if a<10 and b<10 and a and b:
+# if a<10>b and a and b:
+#     print(a*b)
+# else:
+#     print(a+b)
+
+
+a, b = int(input()), int(input())
+c = a + b if a > b else a * b
+print(c)
