@@ -1,6 +1,7 @@
 # import keyword
 # print(keyword.kwlist)
 from operator import add
+from zipimport import path_sep
 
 # integers = 450070850
 # floating_points = 4.50070850
@@ -190,6 +191,72 @@ from operator import add
 #     print(a+b)
 
 
-a, b = int(input()), int(input())
-c = a + b if a > b else a * b
-print(c)
+# a, b = int(input()), int(input())
+# c = a + b if a > b else a * b
+# print(c)
+
+
+# a = 10
+# a > 5 and print("dadad")
+
+
+# a = 10
+# b = (a > 5 and print("dadad"))
+# print(b)
+
+
+# try:
+#     ...
+# except (TypeError, ZeroDivisionError) as e:
+#     ...
+# except:
+#     ...
+# else:
+#     выполнится если исключение не было поймано
+# finally:
+#     всегда запускается в конце блока try
+
+
+# try:      #перехват помилки
+#     a = int(input())
+# except:      #якщо знайшли помилку йдемо сюди
+#     print("Not number")
+
+
+# try:
+#     a, b = int(input()), int(input())
+#     print(a/b)
+# except ZeroDivisionError:
+#     print("Zero")
+# except ValueError:
+#     print("Not number")
+# except NameError:
+#     print("Name error")
+# except:
+#     pass
+# else:
+#     print("Without error")
+
+
+# try:
+#     a, b = int(input()), int(input())
+#     if a > b or b > a:
+#         print(a/b)
+#     else:
+#         print("A and B are equal")
+# except ZeroDivisionError:
+#     print("Division Impossible")
+# except ValueError:
+#     print("Value Error")
+
+
+
+# a = a +2
+# a += 2
+#
+# a = a / 3
+# a /= 3
+
+
+
+
