@@ -103,5 +103,49 @@ from operator import add
 
 
 
-a = int(input("Enter a number: "))
-print(-9**a)
+# a = int(input("Enter a number: "))
+# print((-9)**a) #порядок дій
+
+
+# a = 0.3*9
+# a = round(0.3*9, 1) #округлення
+# print(a==2.7)
+# a = 0.3
+# print(a*9, round(a*9, 10), round(a*9, 20), sep='\n')
+
+
+# a, b, c = int(input("Enter a number 1: ")), int(input("Enter a number 2: ")), int(input("Enter a number 3: "))
+# print(a**(b/c))
+
+
+
+# a = int(input())
+# b = int(input())
+# if a > 10:
+#     if b > 0:
+#         a = a+10
+#     else:
+#         a = a+20
+# elif a > 0:
+#     a = a +3
+# else:
+#     a = a + 1
+# print(a, b)
+
+
+# a, b = int(input()), int(input())
+# if b != 0:
+#     print(a/b)
+# else:
+#     print("Error")
+
+
+# a, b, c = int(input()), int(input()), int(input())
+# if a <= c and c <= b:
+#     print("c in range")
+# else:
+#     print("c is not in range")
+
+
+# print(int(True))
+# print(int(False))
