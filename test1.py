@@ -1,7 +1,7 @@
 # import keyword
 # print(keyword.kwlist)
 from operator import add
-from zipimport import path_sep
+#from zipimport import path_sep
 
 # integers = 450070850
 # floating_points = 4.50070850
@@ -93,6 +93,7 @@ from zipimport import path_sep
 # print(9**19-int(float(9**19))) #!!!!!!!!!
 # endregion
 
+# region
 
 # print(42/8, 42//8, 42%8)
 # print(-42/-8, -42//-8, -42%-8)
@@ -102,7 +103,7 @@ from zipimport import path_sep
 # a//b=q remainder r
 # b*q+r=a
 
-
+# endregion
 
 # a = int(input("Enter a number: "))
 # print((-9)**a) #порядок дій
@@ -256,6 +257,136 @@ from zipimport import path_sep
 #
 # a = a / 3
 # a /= 3
+
+
+# print(int(input())+int(input()))
+
+
+# x = int(input())
+# print("He works until: ", 12+x//60,":", x%60, sep="")
+
+
+# x, h, m = int(input("when she arrives:")), int(input("how many hours she works:")), int(input("how many minutes she works:"))
+# print((h*60+m+x)//60)
+# print((h*60+m+x)%60)
+
+
+# a = int(input())
+# a1 = a%10
+# a2 = (a//10)%10
+# a3 = (a//100)%10
+# a4 = (a//1000)%10
+# a5 = a//10000
+# res = a1*10000+a2*1000+a3*100+a4*10+a5
+# print(res)
+# print(a1,a2,a3,a4,a5)
+
+
+# ab = int(input())
+# ab, b5 = ab // 10, ab % 10
+# ab, b4 = ab // 10, ab % 10
+# ab, b3 = ab // 10, ab % 10
+# ab, b2 = ab // 10, ab % 10
+# print(b5, b4, b3, b2, ab, sep="")
+
+
+# year = int(input())
+# if year % 400 == 0 or (year % 4 == 0 and year % 100 != 0):
+#     print("Bissextile year")
+# else:
+#     print("Standard year")
+
+
+# month_num = int(input())
+#
+# if 3 <= month_num <= 5:
+#     print('Spring')
+# elif 6 <= month_num <= 8:
+#     print('Summer')
+# elif 9 <= month_num <= 11:
+#     print('Autumn')
+# elif 1 <= month_num <= 12:
+#     print('Winter')
+
+# region while + infinit while
+
+# a = 0
+# while a < 55:
+#     print(a)
+#     a += 1
+
+
+# i = 0
+# while i <= 10:
+#     i = i + 1
+#     if i > 7:
+#         i = i + 2
+# print(i)
+
+
+# number = int(input("Enter a number: "))
+# i = 0
+# while i <= number:
+#     if not i % 2:
+#         print(i, end=" ")
+#     i += 1
+# print()
+
+
+# number = int(input("Enter a number: "))
+# i = 0
+# while i <= number - 2:
+#     i += 2
+#     print(i, end=" ")
+
+
+# while True:
+#     a = int(input())
+#     print(add(a,a))
+
+
+# res = 0
+# a = int(input())
+# while a:
+#     res += a
+#     a = int(input())
+# print(res)
+
+
+# res = 0
+# while True:
+#     a = int(input())
+#     res += a
+#     if not a:
+#         print(res)
+#         break
+#
+# endregion
+
+
+# for i in 10, 4, 7, 5, "ert", True:
+#     print(i)
+
+# i = 0
+# y = int(input())
+# for i in range(1, y+1, 1):
+#     res = i * (i + 1)
+# print(res)
+
+
+a = int(input())
+i = 1
+res = 1
+# while i <= a:
+#     res *= i
+#     i += 1
+# print(res)
+for i in range(1, a + 1):
+    res *= i
+print(res)
+
+
+
 
 
 
