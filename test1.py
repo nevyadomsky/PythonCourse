@@ -374,16 +374,108 @@ from operator import add
 # print(res)
 
 
-a = int(input())
-i = 1
-res = 1
-# while i <= a:
+# a = int(input())
+# i = 1
+# res = 1
+# # while i <= a:
+# #     res *= i
+# #     i += 1
+# # print(res)
+# for i in range(1, a + 1):
 #     res *= i
-#     i += 1
 # print(res)
-for i in range(1, a + 1):
-    res *= i
-print(res)
+
+
+# a = [i for i in range(10)]
+# for i in a:
+#     print(i)
+# for i in range(len(a)):
+#     print(a[i])
+
+
+# while True:
+#     try:
+#         a = int(input())
+#
+#         if 0 < a <= 1000:
+#             i = 2
+#             while i <= (a // 2) + 1:
+#                 if a % i == 0:
+#                     print('Not Simple')
+#                     break
+#                 i += 1
+#             else:
+#                 print('Simple')
+#
+#         elif a == 0:
+#             break
+#
+#         else:
+#             print('Bad number! Give me the new number: ')
+#     except:
+#         print("Not number!")
+#         continue
+
+
+# n = int(input())
+# i = 1
+# while i <= n:
+#     print(" " * (n-i), str(i) * i, sep=" ")
+#     i += 1
+#
+# x = int(input())
+# for i in range(x+1):
+#     print(" "* (x-i), str(i) * i)
+
+
+# a = int(input())
+# b = int(input())
+# result = 0
+# while a <= b:
+#     result += a
+#     a += 1
+# print(result)
+# # знизу і зверху одне й теж
+# a = int(input())
+# b = int(input())
+# print(sum(range(a, b + 1)))
+# # також
+# a, b = int(input("Enter a:")), int(input("Enter b:"))
+# print("Sum is:", (a + b) * (b - a + 1) / 2)
+
+
+
+# # Fibonacci
+# n = int(input())
+# if n == 0:
+#     print(0)
+# else:
+#     a, b = 0, 1
+#     for i in range(2, n + 1):
+#         a, b = b, a + b
+#         print(a, b)
+#     print(b)
+
+
+
+# month = int(input())
+#
+# months = list(range(1, 13))
+# winter = [12, 1, 2]
+# spring = [3, 4, 5]
+# summer = [6, 7, 8]
+# fall = [9, 10, 11]
+#
+# if not month in months:
+#     print('Неверное значение. Введите месяц в диапазоне 1 - 12!')
+# elif month in winter:
+#     print('Зима')
+# elif month in spring:
+#     print('Весна')
+# elif month in summer:
+#     print('Лето')
+# elif month in fall:
+#     print('Осень')
 
 
 
