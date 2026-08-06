@@ -478,7 +478,18 @@ from operator import add
 #     print('Осень')
 
 
+# a = [1, 2, -5, 4, 7, 6]
+# print(a)
+# a[a.index(max(a))], a[a.index(min(a))] = a[a.index(min(a))], a[a.index(max(a))]
+# print(a)
 
+
+a = [1, 2, 3, 4, 5]
+b = [1, 2, 3, 4, 5]
+a.extend(b)
+#c = [*a, *b]
+print(a)
+print(sum(a) / len(a))
 
 
 
